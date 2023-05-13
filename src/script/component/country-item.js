@@ -49,7 +49,7 @@ class CountryItem extends HTMLElement {
       
       <div class="country-info">
         <h2>${this._country.name.common}</h2>
-        <p>Ibukota: ${this._country.capital[0]}</p>
+        <p>Ibukota: ${this._country.capital}</p>
         <p>Populasi: ${this._country.population}</p>
       </div>
     `;
